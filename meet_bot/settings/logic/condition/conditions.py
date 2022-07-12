@@ -1,0 +1,39 @@
+from settings.view.keyboards.keyboards import ButtonHeading
+from settings.view.messages.messages import Message
+class Condition:
+    GENDER_MAN_VALUE = ButtonHeading.MAN
+    GENDER_HUMAN_VALUE = ButtonHeading.HUMAN
+    AGE_LOW_LIMIT = 16
+    AGE_HIGH_LIMIT = 30
+    SCHOOL_FIRST = ButtonHeading.SCHOOL_FIRST
+    SCHOOL_SECOND = ButtonHeading.SCHOOL_SECOND
+    SCHOOL_THIRD = ButtonHeading.SCHOOL_THIRD
+    SCHOOL_FOURTH = ButtonHeading.SCHOOL_FOURTH
+    SCHOOL_FIFTH = ButtonHeading.SCHOOL_FIFTH
+    SCHOOL_SIXTH = ButtonHeading.SCHOOL_SIXTH
+    SCHOOL_SEVENTH = ButtonHeading.SCHOOL_SEVENTH
+    SCHOOL_EIGHTH = ButtonHeading.SCHOOL_EIGHTH
+    SCHOOL_ARR = [SCHOOL_FIRST, SCHOOL_SECOND,
+                SCHOOL_THIRD, SCHOOL_FOURTH, 
+                SCHOOL_FIFTH, SCHOOL_SIXTH,
+                SCHOOL_SEVENTH, SCHOOL_EIGHTH]
+    
+    MAIN_MENU = ButtonHeading.MAIN_MENU
+    CHANGE_MY_TEXT = ButtonHeading.CHANGE_MY_TEXT
+    CHANGE_MY_PHOTO = ButtonHeading.CHANGE_MY_PHOTO
+    REG_MY_PROFILE = ButtonHeading.REG_MY_PROFILE
+
+    MAIN_MENU_SHOW_HUMAN_PROFILE = ButtonHeading.SHOW_HUMAN_PROFILE
+    MAIN_MENU_SHOW_MY_PROFILE = ButtonHeading.SHOW_MY_PROFILE
+    MAIN_MENU_FINISH_VIEWING = ButtonHeading.FINISH_VIEWING
+    MAIN_MENU_AFFILIATE_PROGRAM = ButtonHeading.AFFILIATE_PROGRAM
+
+    SHOW_HUMAN_PROFILE_MENU_LIKE = ButtonHeading.LIKE
+    SHOW_HUMAN_PROFILE_MENU_DIZZ = ButtonHeading.DIZZ
+    SHOW_HUMAN_PROFILE_MENU_LIKE_AND_TEXT = ButtonHeading.LIKE_AND_TEXT
+
+    CHECK_YES = ButtonHeading.YES_BUTTON
+    CHECK_NO = ButtonHeading.NO_BUTTON
+
+    HELP_COMMAND = Message.HELP_COMMAND
+    

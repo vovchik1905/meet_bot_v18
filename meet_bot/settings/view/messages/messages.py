@@ -1,0 +1,35 @@
+class Message:
+    START_COMMAND = "Приветствие"
+    HELP_COMMAND = "Помощь"
+    REG_COMMAND = "Начнем регистрацию"
+
+    GET_NAME_STEP = "Как тебя зовут?"
+    RETRY_GET_NAME_STEP = "Вы ввели недопустимое имя, повторите попытку."
+    GET_GENDER_STEP = "Твой пол?"
+    RETRY_GET_GENDER_STEP = "Вы ввели недопустимое значение пола, повторите попытку."
+    GET_AGE_STEP = "Сколько тебе лет?"
+    RETRY_GET_AGE_STEP = "Вы ввели недопустимый возраст, повторите попытку."
+    GET_SCHOOL_STEP = "Из какого ты вуза?"
+    RETRY_GET_SCHOOL_STEP = "Вы ввели недопустимое значение вуза, повторите попытку."
+    GET_PHOTO_STEP = "Скинь свою фотку..."
+    RETRY_GET_PHOTO_STEP = "Вы отправили фото в недопустимом формате, повторите попытку."
+    GET_TEXT_STEP = "Напишите пару слов о себе"
+    END_REG_STEP = "Регистрация завершена!\nТвоя анкета:"
+
+    MAIN_MENU_STEP = "Главное меню:"
+    SHOW_MY_PROFILE_STEP = "Твоя анкета:"
+    SHOW_HUMAN_PROFILE_STEP = "Следующий профиль:"
+    SHOW_LIKE_STEP = "Симпатия от профиля:"
+    FINISH_VIEWING_STEP = "Вы уверены в том, что хотите удалить свою анкету?"
+    FINISH_VIEWING_STEP_TRUE = "Ваша анкета больше не показывается."
+    AFFILIATE_PROGRAM_STEP = "Партнёрская программа."
+
+    LIKE_HUMAN_PROFILE = "Лайк отправлен.\nСледующая анкета:"
+    DIZZ_HUMAN_PROFILE = "Следующая анкета:"
+    LIKE_AND_TEXT_HUMAN_PROFILE = "Введите сообщение"
+
+    USER_BAN = "Ты забанен, по всем вопросам обращайся к админам..."
+    EROR = "Ошибка"
+
+    MSG_DATA = ""
+    INVALID_MSG = "Недопустимый ответ"
